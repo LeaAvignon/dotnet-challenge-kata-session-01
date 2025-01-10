@@ -12,8 +12,8 @@ public static class ReverseStringKata
     /// <exception cref="NotImplementedException"></exception>
     public static string ReverseWords(string input)
     {
-        string[] mots = input.Split(' ');
-        Array.Reverse(mots);
-        return string.Join(' ', mots);
+        string[] words = input.Split(' ');
+        Array.Reverse(words);
+        return string.Join(' ', words);
     }
 }
